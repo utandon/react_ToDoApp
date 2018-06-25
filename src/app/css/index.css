@@ -1,0 +1,24 @@
+body {
+  background-color: #6499be;
+  font-family: tahoma;
+  width: 75%;
+  margin: 0 auto;
+}
+#todo-wrapper {
+  background-color: #e5e5e5;
+  padding: 20px;
+  border-top: 4px solid #4c4c4c;
+  border-radius: 2px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+  color: #333;
+}
+#todo-wrapper p{
+  color: #777;
+  font-style: italic;
+}
+#todo-wrapper h1{
+  text-align: center;
+}
+#todo-list ul{
+  list-style-type: square;
+}

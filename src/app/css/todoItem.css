@@ -1,0 +1,31 @@
+.todo-item{
+  padding: 16px;
+  border-bottom: 1px dashed #bbb;
+  display: flex;/* element will behave as a block element */
+}
+
+.todo-item:hover{
+  background: #eee;
+}
+
+/* .item-name{
+  The flex property sets the flexible length on flexible items.
+  flex-basis: 0;
+  It specifies the initial size of the flex item, before any available space is distributed
+  according to the flex factors. When omitted from the flex shorthand, its specified value is the length zero.
+  flex-grow: 9;
+  IT defines the ability for a flex item to grow if necessary. It accepts a unitless value that
+  serves as a proportion. It dictates what amount of the available space inside the flex container
+  the item should take up.
+
+
+} */
+
+.item-delete{
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: right;
+  color: #466b85;
+  font-weight: bold;
+  cursor: pointer;
+}
